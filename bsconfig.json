@@ -4,17 +4,19 @@
   "bsc-flags": [
     "-bs-super-errors"
   ],
+  "warnings": {
+    "number": "-44"
+  },
   "reason": {
     "react-jsx": 3
   },
   "bs-dependencies": [
-    "reason-react"
+    "@rescript/react"
   ],
   "bs-dev-dependencies": [
-    "immutable-re",
     "@glennsl/bs-jest",
-    "bs-react-testing-library",
-    "reason-hooks-testing-library"
+    "@rescriptbr/react-testing-library",
+    "rescript-hooks-testing-library"
   ],
   "sources": [
     "src",
